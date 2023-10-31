@@ -1,0 +1,4 @@
+﻿AppName = Barcodes.Service
+Connections = tcp(timeout="10000", reconnect="true", reconnect.interval="10"), file(append="true", filename="Logs\Barcodes.sil", maxparts="30", rotate="daily")
+Enabled = True
+Level = Debug
